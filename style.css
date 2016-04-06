@@ -9,7 +9,7 @@ body {
 a{
 	color:black;
 }
-a:hover, #titleLink{
+a:hover{
 	color:#545454;
 }
 a:active{
@@ -17,4 +17,5 @@ a:active{
 }
 #titleLink{
 	text-decoration:none;
+	color:black;
 }
