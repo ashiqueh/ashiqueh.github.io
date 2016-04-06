@@ -9,8 +9,11 @@ body {
 a{
 	color:black;
 }
+a:hover, #titleLink{
+	color:#545454;
+}
 a:active{
-	color:#737373;
+	color:#939393;
 }
 #titleLink{
 	text-decoration:none;
