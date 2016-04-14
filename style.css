@@ -5,15 +5,22 @@ body {
 	margin-left: 100px;
 	margin-top: 100px;
 	width: 720px;
-
 }
 
 .mainBody{
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 3s; /* Firefox < 16 */
+	-ms-animation: fadein 3s; /* Internet Explorer */
+	-o-animation: fadein 3s; /* Opera < 12.1 */
+	animation: fadein 3s;
+}
+
+.sectionTitle{
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2s; /* Firefox < 16 */
 	-ms-animation: fadein 2s; /* Internet Explorer */
 	-o-animation: fadein 2s; /* Opera < 12.1 */
-	animation: fadein 2s;
+	animation: fadein 2s;	
 }
 
 a{
